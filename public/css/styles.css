@@ -65,6 +65,8 @@ padding: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-right-style: solid black;
+    margin:0%;
+    text-align: left;
 }
 
 .lupa{
@@ -484,7 +486,8 @@ input{
  width:90%;
  height:40px;
  border:none;
- margin:10px 
+ margin:10px;
+ text-align: center;
 }
 .boton{
 display: flex;
@@ -502,7 +505,7 @@ color: #ebebeb;
 background-color:red;
 color: #ebebeb;
 }
-.perfilSelectore{
+.perfilSelectore    {
     display: flex;
     justify-content: center;
 }
