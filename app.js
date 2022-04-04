@@ -27,6 +27,6 @@ app.post("/",(req,res)=>{
     res.sendFile(path.resolve(__dirname,"./views/home.html"))
 })
 
-app.listen(process.env.port||4000,()=>{
+app.listen(process.env.PORT||4000,()=>{
     console.log("levantando servidor funcionando")
 });
